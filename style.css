@@ -1,0 +1,75 @@
+html, body{
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    /* margin:0;
+    padding:0; */
+}
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+
+button{
+    font-size: x-large;
+    border-radius: 5%;
+}
+
+a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(194, 188, 188);
+}
+
+a:active{
+    color: black;
+    background-color: red;
+}
+
+#song{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin-top: 10px;
+}
+
+#footer{
+    margin-top: 30px;
+}
+
+.refrain{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 150px;
+    color: brown;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+}
+
+.verse{
+    margin-bottom: 20px;
+    display: block;
+    font-size: 15px;
+}
+
+.lyrics{
+    white-space: pre;
+    font-weight: 800;
+    font-family: monospace;
+}
+
+.chords{
+    white-space: pre;
+    font-family: monospace;
+    color: red;
+    font-weight: 700;
+}
+
+.buttons{
+    margin-top: 40px;
+}
