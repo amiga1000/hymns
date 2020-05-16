@@ -73,3 +73,13 @@ a:active{
 .buttons{
     margin-top: 40px;
 }
+
+@media(max-width:500px){
+    #song *{
+        font-size:3vw;
+    }
+
+    #title{
+        text-align: center;
+    }
+}
