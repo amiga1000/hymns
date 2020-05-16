@@ -1,0 +1,34 @@
+html{
+    align-content: center;
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    border: solid red 1px;
+    width: 90vw;
+}
+
+#song{
+    border: solid black 2px;
+    white-space: pre;
+    font-family: monospace;
+    line-height: 5px;
+    margin: 10vw;
+    font-size: 2vw;
+    line-height: 1vw;
+}
+
+#refrain{
+    text-align: center;
+    font-weight: 900;
+    color: brown;
+}
+
+.verse{
+    border: solid green 3px;
+}
+
+.chords .lyrics{
+    border: solid 1px blue;
+}
